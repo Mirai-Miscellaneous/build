@@ -7,7 +7,7 @@ rm -rf kernel/xiaomi
 rm -rf vendor/xiaomi
 
 # Clone rom
-repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs --depth=1
+repo init -u https://github.com/crdroidandroid/android.git -b 13.0 --git-lfs --depth=1
 
 # Clone local_manifests repository
 git clone https://github.com/Mirai-Miscellaneous/local_manifests --depth=1 -b lineage-20_k4.19 .repo/local_manifests
