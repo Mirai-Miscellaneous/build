@@ -7,10 +7,10 @@ rm -rf kernel/xiaomi
 rm -rf vendor/xiaomi
 
 # Clone rom
-repo init -u https://github.com/mizukanaAlt/manifest.git -b lineage-23.1 --git-lfs --depth=1
+repo init -u https://github.com/KanadeAlt/android.git -b lineage-23.2 --git-lfs --depth=1
 
 # Clone local_manifests repository
-git clone https://github.com/Project-Nightcord/manifesto --depth=1 -b lineage-23.1 .repo/local_manifests
+git clone https://github.com/Project-Nightcord/manifesto --depth=1 -b lineage-23.2 .repo/local_manifests
 
 # repo sync
 /opt/crave/resync.sh
@@ -30,7 +30,7 @@ export KBUILD_BUILD_HOST=NeedAlt
 
 # Lunch
 # lunch lineage_ysl-bp2a-userdebug
-lunch lineage_vince-bp3a-userdebug
+lunch lineage_vince-bp4a-userdebug
 
 # Run
 mka bacon
