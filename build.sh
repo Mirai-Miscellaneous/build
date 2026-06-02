@@ -24,6 +24,8 @@ export BUILD_HOSTNAME=Ame
 export KBUILD_BUILD_USER=Mikana
 export KBUILD_BUILD_HOST=Ame
 
+rm -rf hardware/xiaomi/megvii
+
 # Lunch
 lunch lineage_vince-bp4a-userdebug
 
