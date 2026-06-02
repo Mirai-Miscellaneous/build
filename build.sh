@@ -9,7 +9,7 @@ git clone https://github.com/Project-Nightcord/manifesto .repo/local_manifests
 
 git clone https://github.com/Meow-prjkt/android_hardware_dolby hardware/dolby
 
-git clone https://github.com/kenway214/packages_apps_GameBar packages/apps/GameBar
+git clone https://github.com/imren0x/packages_apps_GameBar packages/apps/GameBar
 
 #symlink libncurses 6 >> 5
 sudo ln -s /usr/lib/x86_64-linux-gnu/libncurses.so.6 /usr/lib/x86_64-linux-gnu/libncurses.so.5
