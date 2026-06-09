@@ -25,7 +25,7 @@ export KBUILD_BUILD_USER=Mikana
 export KBUILD_BUILD_HOST=Ame
 
 # Lunch
-lunch lineage_vince-bp4a-userdebug
+lunch lineage_ysl-bp4a-userdebug
 
 # Run
 m bacon
