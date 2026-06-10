@@ -9,7 +9,7 @@ git clone https://github.com/Project-Nightcord/manifesto .repo/local_manifests
 
 rm -rf build/make
 
-https://github.com/Project-Nightcord/android_build build/make
+git clone https://github.com/Project-Nightcord/android_build build/make
 
 #symlink libncurses 6 >> 5
 sudo ln -s /usr/lib/x86_64-linux-gnu/libncurses.so.6 /usr/lib/x86_64-linux-gnu/libncurses.so.5
