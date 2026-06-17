@@ -1,15 +1,11 @@
 #!/bin/bash
 
 # repo
-repo init -u https://github.com/LineageOS/android.git -b lineage-23.2 --git-lfs --depth=1
+repo init -u https://github.com/LineageOS/android.git -b lineage-22.2 --git-lfs --depth=1
 
-git clone https://github.com/Project-Nightcord/manifesto .repo/local_manifests
+git clone https://github.com/Mika-Room/manifesuto .repo/local_manifests
 
 /opt/crave/resync.sh
-
-rm -rf build/make
-
-https://github.com/Project-Nightcord/android_build build/make
 
 #symlink libncurses 6 >> 5
 sudo ln -s /usr/lib/x86_64-linux-gnu/libncurses.so.6 /usr/lib/x86_64-linux-gnu/libncurses.so.5
@@ -25,7 +21,7 @@ export KBUILD_BUILD_USER=Mikana
 export KBUILD_BUILD_HOST=Ame
 
 # Lunch
-lunch lineage_vince-bp4a-userdebug
+lunch lineage_Mi8953-bp1a-userdebug
 
 # Run
 m bacon
